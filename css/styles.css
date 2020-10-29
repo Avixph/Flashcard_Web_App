@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Julia-Black";
+  src: url("/fonts/JuliaMono-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Bold";
+  src: url("/fonts/JuliaMono-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Bold-Latin";
+  src: url("/fonts/JuliaMono-BoldLatin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Extra-Bold";
+  src: url("/fonts/JuliaMono-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Light";
+  src: url("/fonts/JuliaMono-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Medium";
+  src: url("/fonts/JuliaMono-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Regular";
+  src: url("/fonts/JuliaMono-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Julia-Regular-Latin";
+  src: url("/fonts/JuliaMono-RegularLatin.ttf") format("truetype");
+}
+
+:root {
+  --first-color: #e8e6d8;
+  --second-color: #fcf4a6;
+  --third-color: #aac7ec;
+  --fourth-color: #000000db;
+  --fith-color: #e4dede;
+  --sixth-color: #e4dede;
+  --first-font: "Julia-Black";
+  --second-font: "Julia-Bold";
+  --third-font: "Julia-Bold-Latin";
+  --fourth-font: "Julia-Extra-Bold";
+  --fith-font: "Julia-Light";
+  --sixth-font: "Julia-Medium";
+  --seventh-font: "Julia-Regular";
+  --eigth-font: "Julia-Regular-Latin";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  text-align: center;
+  font-family: var(--seventh-font), monospace;
+  font-size: 30px;
+  font-weight: normal;
+  color: var(--fourth-color);
+}
+
+body {
+  background-color: var(--first-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* border: 3px solid var(--third-color);
+  border-radius: 5px;
+  min-height: 98vh; */
+}
