@@ -9,27 +9,22 @@
 <body>
   <main>
     <div class="jot-container">
-      <h1>Jot it! 
-        <!-- <img src="/images/jot_it-logo.png" class="jot-logo"> -->
+      <div class="jot-container-title">
+        <h1>Jot it! 
+        <img src="/images/jot_it-logo.png" class="jot-logo">
       </h1>
-      <button class="open-form">✎</button>
-      <div class="jot-form">
-        
+      <button class="open-form-button" aria-label="Open form" id="show-form" onclick="openTheForm()">✎</button>
+      </div>
+      <form class="jot-container-form" id="jot-down">
         <h4>Prompt</h4>
-        <input>
+        <input class="prompt-input" id="form-input-a" type="text" required = "required" aria-label="Fill in the jotcard prompt or title.">
         <!-- <textarea></textarea> -->
         <h4>Description</h4>
-        <button class="submit-form" type="submit">➕</button>
-        <textarea></textarea> 
-        <button class="close-form">✏︎</button>
-      </div>
+        <textarea class="description-input" id="form-input-b" type="text" required = "required" aria-label="Fill in the jotcard description."> </textarea> 
+        <button class="submit-form-button" id="submit-form" aria-label="Add a new jotcard">➕</button>
+      </form>
     </div>
-    
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    
+    <div class="jot-pad"></div>    
   </main>
 
   <script src="js/script.js"></script> 
