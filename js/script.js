@@ -1,7 +1,14 @@
 {
   const jotDown = document.getElementById("jot-down");
 
-  function openForm() {
+  // function openForm() {
+  //   if (jotDown.style.display === "none") {
+  //     jotDown.style.display = "block";
+  //   } else {
+  //     jotDown.style.display = "none";
+  //   }
+  // }
+  function openTheForm() {
     if (jotDown.style.display === "none") {
       jotDown.style.display = "block";
     } else {
