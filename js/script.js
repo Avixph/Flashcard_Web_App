@@ -1,7 +1,7 @@
 {
   const jotDown = document.getElementById("jot-down");
 
-  function openTheForm() {
+  function openForm() {
     if (jotDown.style.display === "none") {
       jotDown.style.display = "block";
     } else {
